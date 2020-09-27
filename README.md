@@ -12,9 +12,13 @@ Use the nginx.conf file to exchange your http block and to add the stream block 
 vim /etc/nginx/nginx.conf
 # exchange your http block and add the stream block
 ```
-Admin username and password can be found in sc_serv.conf and be modified.  
-Happy streaming!
 
 ## LICENSE
 
 MIT
+
+## GOOD TO KNOW
+Admin username for web admin panel access: `admin`  
+Admin password can be found(adminpassword) in `sc_serv.conf` and be modified.  
+Stream password can be found(password) in `sc_serv.conf` and be modified.  
+Happy streaming!  
