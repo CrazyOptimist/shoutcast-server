@@ -2,6 +2,7 @@ version: "3"
 services:
   shoutcast:
     build: .
+    container_name: shoutcast_server
     ports:
       - "8000:8000"
       - "8001:8001"
