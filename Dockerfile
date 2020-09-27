@@ -1,7 +1,3 @@
-#
-# Dockerfile for shoutcast
-#
-
 FROM debian:jessie
 
 MAINTAINER crazyoptimist <crazyoptimist@mail.com>
